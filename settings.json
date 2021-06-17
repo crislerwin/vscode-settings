@@ -1,0 +1,33 @@
+{
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "Fira Code",
+  "editor.fontSize": 15,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Dracula",
+  "tabnine.experimentalAutoImports": true,
+  "editor.suggestSelection": "first",
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.eslint.prettier": true,
+    "editor.formatOnSave": true
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "remote.SSH.remotePlatform": {
+    "laboratory.eastus2.cloudapp.azure.com": "linux"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always"
+}
