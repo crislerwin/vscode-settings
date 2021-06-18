@@ -13,6 +13,8 @@
     "source.eslint.prettier": true,
     "editor.formatOnSave": true
   },
+
+  "eslint.workingDirectories": ["src"],
   "liveServer.settings.donotShowInfoMsg": true,
   "files.exclude": {
     "**/.classpath": true,
@@ -27,7 +29,7 @@
   },
   "vsicons.dontShowNewVersionMessage": true,
   "remote.SSH.remotePlatform": {
-    "laboratory.eastus2.cloudapp.azure.com": "linux"
+ 
   },
   "javascript.updateImportsOnFileMove.enabled": "always"
 }
